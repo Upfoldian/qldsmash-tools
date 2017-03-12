@@ -5,10 +5,8 @@ module QLDSmashTools
 	require 'open-uri'
 	require 'net/https'
 
-	@@longToShortHash = {"New South Wales" => "NSW", "Queensland" => "QLD", "Australian Capital Territory" => "ACT", "Northern Territory" => "NT", "Western Australia" => "WA",
-					"Victoria" => "VIC", "South Australia" => "SA", "Tasmania" => "TAS", "New Zealand" => "NZ"}
-	@@shortToLongHash = {"NSW" => "New South Wales", "QLD" => "Queensland", "ACT" => "Australian Capital Territory", "NT" => "Northern Territory", "WA" => "Western Australia",
-					"VIC" => "Victoria", "SA" => "South Australia", "TAS" => "Tasmania", "NZ" => "New Zealand"}
+	@@longToShortHash = {"New South Wales" => "NSW", "Queensland" => "QLD", "Australian Capital Territory" => "ACT", "Northern Territory" => "NT", "Western Australia" => "WA", "Victoria" => "VIC", "South Australia" => "SA", "Tasmania" => "TAS", "New Zealand" => "NZ"}
+	@@shortToLongHash = {"NSW" => "New South Wales", "QLD" => "Queensland", "ACT" => "Australian Capital Territory", "NT" => "Northern Territory", "WA" => "Western Australia", "VIC" => "Victoria", "SA" => "South Australia", "TAS" => "Tasmania", "NZ" => "New Zealand"}
 
 	attr_accessor :results 
 
